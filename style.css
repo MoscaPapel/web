@@ -1,0 +1,26 @@
+body {
+  background-image: url('fondo.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    gap: 3em;
+}
+
+header img {
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.text-container {
+    flex:0 1 34 em
+}
+
+h1 {
+    font-size: 3em;
+}
